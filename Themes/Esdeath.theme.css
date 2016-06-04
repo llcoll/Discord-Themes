@@ -1859,18 +1859,13 @@ span.discriminator {
     color: hsla(0, 0%, 100%, 0.7) !important;
     margin-left: 8px !important;
     border-radius: 5px !important;
-    background: rgba(0, 0, 0, 0.19) !important;
-    font-weight: bold !important;
+    background: transparent !important;
+    font-weight: normal !important;
     border: 3px solid transparent !important;
-    -webkit-transition: all 0.3s ease !important;
-    -moz-transition: all 0.3s ease !important;
-    -o-transition: all 0.3s ease !important;
-    -ms-transition: all 0.3s ease !important;
 }
 span.discriminator:hover {
-    background: rgba(0, 0, 0, 0.32) !important;
+    background: transparent !important;
     color: #fff !important;
-    font-size: 14px !important;
     font-weight: bold !important;
 }
 .guilds-error {
@@ -2710,8 +2705,9 @@ span.replyer:hover {
     background: #057F95 !important;
 }
 span.replyer {
+    background: transparent !important;
     border-radius: 3px;
-    transition: .3s ease-in-out all;
+    transition: ease-in-out all;
 }
 .notice {
     background-color: rgba(61, 169, 169, 0.68);
