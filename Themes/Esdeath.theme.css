@@ -2702,12 +2702,11 @@ form.auth-form {
     transition: .2s ease-in-out all;
 }
 span.replyer:hover {
-    background: #057F95 !important;
+    color: #dadddf;
 }
 span.replyer {
     background: transparent !important;
     border-radius: 3px;
-    transition: ease-in-out all;
 }
 .notice {
     background-color: rgba(61, 169, 169, 0.68);
