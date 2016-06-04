@@ -2231,8 +2231,8 @@ div#bd-pub-button:hover {
     border-right: 0px solid transparent;
 }
 .guild-channels .channel-voice-states li.speaking .avatar-small {
-    background-color: #057F95;
-    border: 2px solid #057F95;
+    background-color: #3DA9A9;
+    border: 2px solid #3DA9A9;
 }
 .guild-channels .channel-voice-states li.speaking .avatar-small:hover, .guild-channels .channel-voice-states li.speaking .draggable:hover .avatar-small {
     border-color: #3DA9A9;
