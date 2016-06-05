@@ -918,9 +918,11 @@ textarea {
     border-right: none;
 }
 #voice-connection {
-    ;
     border-top: none !important;
     padding: 15px 20px 15px 18px !important;
+    position: absolute;
+    bottom: 80px;
+    width: 220px;
 }
 #voice-connection .btn {
     background: rgba(0, 0, 0, 0.45);
@@ -956,7 +958,7 @@ textarea {
     text-align: center;
 }
 .chat .divider.divider-red>span {
-    background: rgba(61, 169, 169, .6) !important;
+    background: rgba(240, 71, 71, .6) !important;
     color: rgba(255, 255, 255, 0.8) !important;
 }
 .chat .divider:not(.divider-red)>span {
@@ -2870,4 +2872,12 @@ span.replyer {
 .private-channels .status {
     border: 1px solid;
     border-color: rgba(0, 0, 0, .7)
+}
+.guild-channels {
+    position: relative;
+    margin-bottom: 40px;
+}
+#voice-connection .btn-group {
+    position: relative;
+    left: -13px;
 }
