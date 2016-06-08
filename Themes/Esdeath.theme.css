@@ -958,7 +958,7 @@ textarea {
     text-align: center;
 }
 .chat .divider.divider-red>span {
-    background: rgba(240, 71, 71, .6) !important;
+    background: rgba(61,169,169, .6) !important;
     color: rgba(255, 255, 255, 0.8) !important;
 }
 .chat .divider:not(.divider-red)>span {
