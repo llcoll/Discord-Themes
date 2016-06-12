@@ -2117,7 +2117,7 @@ img.image {
     border-radius: 3px;
 }
 .guild-header ul a {
-    background-color: #057F95;
+    background-color: #3DA9A9;
     border-radius: 3px;
     opacity: 0.65;
 }
@@ -2164,22 +2164,22 @@ img.image {
     -webkit-transition: all .2s ease-in-out !important;
 }
 .user-settings-modal .link-button {
-    color: #057F95;
+    color: #3DA9A9;
 }
 .user-settings-modal .link-button:hover {
     color: #045B6B;
 }
 .radio-theme input[type=radio]:checked~label {
-    border-color: #057F95;
+    border-color: #3DA9A9;
 }
 .header-toolbar button+button {
     background-color: transparent !important;
 }
 .guilds-wrapper .guilds .guild.active:first-of-type .guild-inner {
-    background: #057F95 !important;
+    background: #3DA9A9 !important;
 }
 #friends .btn, .add-friend-popout .btn, .private-channels .channel.selected .icon-friends {
-    background-color: #057F95 !important;
+    background-color: #3DA9A9 !important;
 }
 .guild-channels .toggle-muted-text-channels a {
     color: #fff;
@@ -2247,7 +2247,7 @@ div#bd-pub-button:hover {
     color: #FFF;
 }
 .protip .tip a {
-    color: #057F95;
+    color: #3DA9A9;
 }
 .user-settings-appearance .protip .label, .user-settings-streamer-mode .protip {
     background-color: #3DA9A9;
@@ -2331,18 +2331,18 @@ div#bd-pub-button:hover {
     border-radius: none;
 }
 .bda-slist .bda-name {
-    color: #057F95;
+    color: #3DA9A9;
     font-weight: 700;
     font-size: 13px;
 }
 .bda-slist .bda-description {
     color: #D2D2D2;
-    border-top: 2px solid #057F95;
+    border-top: 2px solid #3DA9A9;
     font-size: 14px;
 }
 .bda-slist li {
     background: rgba(0, 0, 0, 0.56);
-    border-bottom: 2px solid #057F95;
+    border-bottom: 2px solid #3DA9A9;
     border-radius: none;
 }
 #bd-themes-pane .bda-plugin-reload {
@@ -2365,34 +2365,34 @@ ul.bda-slist {
     margin-left: -34px;
 }
 a[data-reactid*=".0.1.1.0.1.0.0.1.1.0"] {
-    background-color: #057F95;
+    background-color: #3DA9A9;
     border-radius: 3px;
 }
 a[data-reactid*=".0.1.1.0.1.0.0.1.1.0"]:hover {
-    background-color: #057F95 !important;
+    background-color: #3DA9A9 !important;
 }
 a[data-reactid*=".0.1.1.0.1.0.0.1.0.0"] {
-    background-color: #057F95;
+    background-color: #3DA9A9;
     border-radius: 3px;
 }
 a[data-reactid*=".0.1.1.0.1.0.0.1.0.0"]:hover {
-    background-color: #057F95 !important;
+    background-color: #3DA9A9 !important;
 }
 .guild-header ul a.red-highlight:hover {
     background-color: #A93D3D !important;
 }
 a[data-reactid*=".0.1.1.0.1.0.0.1.2.0"]:hover {
-    background-color: #057F95 !important;
+    background-color: #3DA9A9 !important;
 }
 a[data-reactid*=".0.1.1.0.1.0.0.1.2.0"] {
-    background-color: #057F95;
+    background-color: #3DA9A9;
     border-radius: 3px;
 }
 a[data-reactid*=".0.1.1.0.1.0.0.1.3.0"]:hover {
-    background-color: #057F95 !important;
+    background-color: #3DA9A9 !important;
 }
 a[data-reactid*=".0.1.1.0.1.0.0.1.3.0"] {
-    background-color: #057F95;
+    background-color: #3DA9A9;
     border-radius: 3px;
 }
 .win-buttons button {
@@ -2410,7 +2410,7 @@ button.win-minimize:hover {
     color: #fff;
 }
 .header-toolbar button+button[data-reactid=".0.1.1.0.2.0.3.0:1"] {
-    background-color: #057F95;
+    background-color: #3DA9A9;
     opacity: 0.8;
 }
 .tipsy-inner {
@@ -2453,7 +2453,7 @@ button.win-minimize:hover {
     border: 1px solid #000000;
 }
 .form .control-group label a {
-    color: #057F95;
+    color: #3DA9A9;
 }
 .is-open>.Select-control {
     border-color: #000000 #000 #000000;
@@ -2494,7 +2494,7 @@ button.win-minimize:hover {
     border-top-color: hsla(0, 0%, 0%, 0.85);
 }
 .user-popout .header {
-    background: #057F95;
+    background: #3DA9A9;
 }
 .user-popout .avatar-wrapper .avatar-popout {
     border: 4px solid #045B6B;
@@ -2506,10 +2506,10 @@ button.win-minimize:hover {
 }
 .user-popout .footer {
     background: #000;
-    border-top: 2px #057F95 solid;
+    border-top: 2px #3DA9A9 solid;
 }
 .user-popout .footer .quick-message-wrapper .input {
-    border: 2px solid #057F95;
+    border: 2px solid #3DA9A9;
     background: #0C0C0C;
     color: #fff;
 }
@@ -2638,7 +2638,7 @@ form.auth-form {
     background: rgba(0, 0, 0, 0.85);
 }
 .modal-new-user h5 {
-    color: #057F95;
+    color: #3DA9A9;
 }
 #friends .friends-table .friends-table-header {
     border-bottom: 1px solid rgba(0, 0, 0, 0.37);
@@ -2658,10 +2658,10 @@ form.auth-form {
     color: rgba(195, 195, 195, 0.4);
 }
 .tutorial-popout .button-area .skip-tips a {
-    color: #057F95;
+    color: #3DA9A9;
 }
 .button {
-    background-color: #057F95;
+    background-color: #3DA9A9;
 }
 .button:hover {
     background-color: #045B6B;
@@ -2670,7 +2670,7 @@ form.auth-form {
     background-color: rgba(0, 0, 0, 0.75);
 }
 .popout.popout-right header:before {
-    border-right-color: #057F95;
+    border-right-color: #3DA9A9;
 }
 #friends .friends-empty.section-online .empty-state-image {
     opacity: 0.5;
@@ -2702,7 +2702,7 @@ span.replyer {
     background-color: rgba(61, 169, 169, 0.68);
 }
 .emoji-picker .scroller .emoji-item.selected {
-    background-color: #057F95;
+    background-color: #3DA9A9;
     border-radius: 3px;
 }
 .emoji-picker .dimmer {
@@ -2717,7 +2717,7 @@ span.replyer {
     background-color: transparent;
 } 
 .emoji-picker .categories .item.selected {
-    border-bottom-color: #057F95;;
+    border-bottom-color: #3DA9A9;;
 }
 .emoji-picker .categories .item.people {
     background-image: url(https://discordapp.com/assets/0509bf058793ef8ddd770a977e63614c.svg);
