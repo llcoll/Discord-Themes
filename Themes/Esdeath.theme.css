@@ -2951,3 +2951,18 @@ span.replyer {
     position: relative;
     right: 7px;
 }
+.form .btn-default {
+    background: tansparent !important;
+    border-radius: 2px;
+    border: 2px solid #3DA9A9;
+    color: #fff;
+    width: 76px;
+    height: 40px;
+    position: relative !important;
+    top: 3px;
+}
+.form .btn-default:hover {
+    background: tansparent !important;
+    border: 2px solid #3DA9A9;
+    color: #3DA9A9;
+}
