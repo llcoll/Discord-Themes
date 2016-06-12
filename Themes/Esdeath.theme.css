@@ -2916,3 +2916,38 @@ span.replyer {
 .CodeMirror-scrollbar-filler {
     background: transparent !important;
 }
+#searchBarInner {
+    background: rgba(0, 0, 0, .5);
+    border: transparent !important;
+}
+@-webkit-keyframes searchpulse {
+    0% {
+    box-shadow: 0 0 0 0 #3DA9A9;
+    }
+    70% {
+    box-shadow: 0 0 5px 5px rgba(241, 71, 71, 0)
+    }
+    to {
+    box-shadow: 0 0 0 0 rgba(241, 71, 71, 0)
+    }
+}
+@keyframes searchpulse {
+    0% {
+    box-shadow: 0 0 0 0 #3DA9A9;
+    }
+    70% {
+    box-shadow: 0 0 5px 5px rgba(241, 71, 71, 0)
+    }
+    to {
+    box-shadow: 0 0 0 0 rgba(241, 71, 71, 0)
+    }
+}
+#searchBar .search-bar input {
+    border: 1px solid #3DA9A9;
+    -webkit-animation: searchpulse 2s infinite;
+    animation: searchpulse 2s infinite;
+}
+#searchBarInner>.buttonClose:last-child {
+    position: relative;
+    right: 7px;
+}
