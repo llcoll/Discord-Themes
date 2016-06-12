@@ -2893,3 +2893,26 @@ span.replyer {
     background: transparent !important;
     border: 2px solid #3DA9A9;
 }
+.CodeMirror > ::-webkit-scrollbar,
+.CodeMirror > ::-webkit-scrollbar-track {
+    background: transparent !important;
+    width: 10px;
+    height: 10px;
+}
+
+.CodeMirror > ::-webkit-scrollbar-thumb {
+    background-color: #3DA9A9;
+    background-clip: padding-box;
+    color: #3DA9A9;
+    border-radius: 7px;
+}
+
+.CodeMirror > ::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-clip: padding-box;
+    border-radius: 7px;
+}
+
+.CodeMirror-scrollbar-filler {
+    background: transparent !important;
+}
