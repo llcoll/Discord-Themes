@@ -2953,7 +2953,7 @@ span.replyer {
     width: 76px;
     height: 40px;
     position: relative !important;
-    top: 3px;
+    padding: 0px;
 }
 .form .btn-default:hover {
     background: transparent !important;
