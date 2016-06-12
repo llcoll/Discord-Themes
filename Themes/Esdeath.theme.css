@@ -1,4 +1,3 @@
-//META{"name":"Esdeath","description":"Modern, cool, and Esdeath.","author":"llcoll","version":"1.0"}*//
 /*MAKE SURE THE LINKS YOU USE ARE HTTPS:// OR THEY WONT WORK*/
 .app {
     background-image: url("https://thentirety.com/wp-content/uploads/2015/09/esdeath-frozen-swords-anime-girl-akame-ga-kill-1920x1080.jpg") !important;
@@ -702,9 +701,9 @@
     border-color: #99aab5 !important;
 }
 .user-settings-modal .account-warning {
-    border: 1px solid #B54343;
-    background: #B54343;
-    color: #F5FBF9;
+    background: #3DA9A9;
+    border: 1px solid #3DA9A9;
+    color: #fff;
 }
 .user-settings-modal-games .games-table .games-row .item-game .icon {
     background-image: url(https://i.imgur.com/DYCx6qB.png);
@@ -1290,15 +1289,16 @@ textarea {
     width: 62px;
 }
 .form .btn-primary {
-    background-color: #3DA9A9;
+    background: transparent !important;
+    border: 2px solid #3DA9A9;
+}
+.form .btn-primary:hover {
+    color: #3DA9A9;
 }
 .create-guild-container .action.create .action-header {
     color: #3DA9A9;
 }
 .create-guild-container .action:hover.create .btn {
-    background-color: #2C7E7B;
-}
-.form .btn-primary:hover {
     background-color: #2C7E7B;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
@@ -2152,20 +2152,12 @@ img.image {
 .user-settings-modal .btn-ghost {
     background: transparent !important;
     font-weight: 100;
-    border-color: #3DA9A9;
-}
-.user-settings-modal .btn-ghost:hover {
-    border-color: #3DA9A9;
-    color: #3DA9A9;
-}
-.user-settings-security .btn-ghost {
-    background: #057F95;
-    border: 2px solid #057F95;
+    border: 2px solid #3DA9A9;
     color: #fff;
 }
-.user-settings-security .btn-ghost:hover {
-    background: #045B6B;
-    border-color: #045B6B;
+.user-settings-modal .btn-ghost:hover {
+    color: #3DA9A9;
+	border: 2px solid #3DA9A9;
 }
 .mfa-modal .form-inner p {
     color: #B9B9B9 !important;
@@ -2880,4 +2872,24 @@ span.replyer {
 #voice-connection .btn-group {
     position: relative;
     left: -13px;
+}
+#editor-detached h3 {
+    color: #3DA9A9;
+}
+#overlay-explanation {
+    background: #3DA9A9;
+}
+#bd-customcss-attach-controls, #bd-customcss-detach-controls {
+    background: #2E3136;
+    border-top: #3DA9A9;
+}
+#bd-customcss-attach-controls .btn-primary {
+    color: #fff;
+    background: transparent !important;
+    border: 2px solid #3DA9A9;
+}
+#bd-customcss-attach-controls .btn-primary:hover {
+    color: #3DA9A9 !important;
+    background: transparent !important;
+    border: 2px solid #3DA9A9;
 }
