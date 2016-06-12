@@ -1674,7 +1674,7 @@ a:link {
     cursor: pointer;
 }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item.selected {
-    background-color: #43B581;
+    background-color: #3DA9A9;
     color: #fff;
 }
 #friends .btn {
@@ -1805,7 +1805,8 @@ a:link {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 .theme-dark #friends .friends-header .tab-bar .tab-bar-item:hover:not(.selected) {
-    background: rgba(0, 0, 0, 0.29);
+    color: #fff;
+    background: transparent !important;
 }
 .theme-dark .friends-table .messages .message-group .comment .markup .highlight:hover, .theme-dark .messages-wrapper .messages .message-group .comment .markup .highlight:hover {
     background-color: #3DA9A9;
