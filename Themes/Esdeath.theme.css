@@ -3025,3 +3025,6 @@ span.replyer {
 .create-guild-container .action:hover.join .btn {
     background: transparent !important;
 }
+.guilds-wrapper .guilds .guild.audio .guild-inner:after {
+    background-color: #3DA9A9 !important;
+}
