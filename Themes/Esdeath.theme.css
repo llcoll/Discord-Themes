@@ -2962,3 +2962,18 @@ span.replyer {
     border: 2px solid #3DA9A9;
     color: #3DA9A9;
 }
+.fav {
+    background: url(https://i.imgur.com/z6YhhBl.png) no-repeat transparent !important;
+}
+.fav:after {
+    background: url(https://i.imgur.com/Vk8HPwE.png) no-repeat transparent !important;
+}
+#rmenu {
+    background: #3DA9A9 !important;
+    border: 1px solid #3DA9A9;
+}
+.emoji-picker .search-bar input {
+     border: 1px solid #3DA9A9;
+    -webkit-animation: searchpulse 2s infinite;
+    animation: searchpulse 2s infinite;
+}
