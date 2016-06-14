@@ -11,10 +11,6 @@
 
 <img src="http://i.imgur.com/eJoNsmY.png"/>
 
-~Search Plugin (courtesy of Mitchell)~
-
-<img src="http://i.imgur.com/xWPPhg9.gif"/>
-
 ~Status Bubbles~
 
 <img src="http://i.imgur.com/lHlb6eM.gif"/>
