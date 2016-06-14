@@ -30,7 +30,13 @@ To change the pics, just add the code below in the `Custom CSS` tab of the `Bett
 
 ( Be sure to add the `s` after `http` when you change the pic or it won't appear )
 ```css
-
+.app {
+    background-image: url("https://thentirety.com/wp-content/uploads/2015/09/esdeath-frozen-swords-anime-girl-akame-ga-kill-1920x1080.jpg") !important;
+    background-size: cover !important;
+}
+```
+into
+```css
 .app {
     background-image: url("ENTER YOUR URL HERE, MAKE SURE IT STARTS WITH HTTPS://") !important;
     background-size: cover !important;
