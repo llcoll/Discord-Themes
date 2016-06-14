@@ -39,7 +39,7 @@
 }
 .tab-bar.SIDE {
     overflow-y: hidden;
-    background-color: rgba(0, 0, 0, 0) !important;
+    background-color: rgba(46, 49, 54, .5) !important;
 }
 .tab-bar.SIDE .tab-bar-item.selected, 
 .tab-bar.SIDE .tab-bar-item:hover {
@@ -2336,7 +2336,7 @@ div#bd-pub-button:hover {
     color: #A0A0A0;
 }
 .bda-slist li:nth-child(odd) {
-    background: rgba(0, 0, 0, 0.56);
+    background: #2E3136;
     border-top: none;
     border-radius: none;
 }
@@ -2351,7 +2351,7 @@ div#bd-pub-button:hover {
     font-size: 14px;
 }
 .bda-slist li {
-    background: rgba(0, 0, 0, 0.56);
+    background: #2E3136;
     border-bottom: 2px solid #3DA9A9;
     border-radius: none;
 }
@@ -2476,6 +2476,7 @@ button.win-minimize:hover {
     background-color: rgba(0, 0, 0, 0.58);
     color: #fff !important;
     border-radius: 3px;
+    -webkit-animation: searchpulse 2s infinite;
 }
 .guild-settings-modal-members {
     background-color: transparent;
