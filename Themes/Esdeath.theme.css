@@ -2105,9 +2105,6 @@ img.image {
     border: 1px solid #6fd0fc;
     border-top: 0px solid #6fd0fc;
 }
-#bd-customcss-attach-controls, #bd-customcss-detach-controls {
-    background: #2E3136;
-}
 .guild-header ul li:hover a {
     background-color: #057F95;
     transition: .3s all ease-in-out;
@@ -2880,7 +2877,7 @@ span.replyer {
     background: #3DA9A9;
 }
 #bd-customcss-attach-controls, #bd-customcss-detach-controls {
-    background: #2E3136;
+    background: #000;
     border-top: #3DA9A9;
 }
 #bd-customcss-attach-controls .btn-primary {
@@ -3031,4 +3028,7 @@ span.replyer {
 }
 .guilds-wrapper .guilds .guild.audio .guild-inner:after {
     background-color: #3DA9A9 !important;
+}
+#bd-customcss-detach-container {
+    background #000;
 }
