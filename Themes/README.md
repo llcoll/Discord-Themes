@@ -1,13 +1,22 @@
 # Esdeath Theme - Akame Ga Kill
 ~Main Screen~
+
 <img src="http://i.imgur.com/wrgmZvv.jpg"/>
+
 ~User Settings~
+
 <img src="http://i.imgur.com/D9W6mac.png"/>
+
 ~Emotes~
+
 <img src="http://i.imgur.com/eJoNsmY.png"/>
+
 ~Find Plugin (courtesy of Mitchell)~
+
 <img src="http://i.imgur.com/xWPPhg9.gif"/>
+
 ~Status Bubbles~
+
 <img src="http://i.imgur.com/lHlb6eM.gif"/>
 
 
