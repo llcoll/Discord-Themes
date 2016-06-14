@@ -3071,3 +3071,12 @@ span.replyer {
     padding-bottom: 19px;
     margin-bottom: -18px;
 }
+.is-open.is-focused .Select-menu::-webkit-scrollbar,
+.is-open.is-focused .Select-menu::-webkit-scrollbar-track-piece{
+    background: rgba(0, 0, 0, 0.3);
+    width: 8px;
+}
+.is-open.is-focused .Select-menu::-webkit-scrollbar-thumb {
+    background: #3DA9A9;
+    border-radius: 10px;
+}
