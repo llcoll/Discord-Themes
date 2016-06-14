@@ -30,7 +30,11 @@
 }
 .tab-bar.SIDE {
     overflow-y: hidden;
-    background-color: #25282B;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.tab-bar.SIDE .tab-bar-item.selected, 
+.tab-bar.SIDE .tab-bar-item:hover {
+    background: rgba(61, 169, 169, .5);
 }
 .create-guild-container .join-server .link-container input {
     border: 1px solid #3DA9A9;
