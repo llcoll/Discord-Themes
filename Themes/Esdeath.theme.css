@@ -278,8 +278,8 @@
     border: 1px solid #4C4C4C;
 }
 .small-popout-box {
-    background: #282B30;
-    border: 1px solid #24272B;
+    background: rgba(0, 0, 0, .5);
+    border: 1px solid rgba(0, 0, 0, .75);
 }
 .option-popout .btn-item:hover {
     color: #BBBBBB;
