@@ -11,7 +11,7 @@
 
 <img src="http://i.imgur.com/eJoNsmY.png"/>
 
-~Find Plugin (courtesy of Mitchell)~
+~Search Plugin (courtesy of Mitchell)~
 
 <img src="http://i.imgur.com/xWPPhg9.gif"/>
 
