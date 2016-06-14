@@ -239,9 +239,6 @@
     color: #2C7E7B;
     background-color: #282D2F;
 }
-.callout-backdrop {
-    background-color: rgb(0, 0, 0) !important;
-}
 .download-apps .platforms .platform {
     border: 2px solid #2C7E7B;
 }
