@@ -75,15 +75,14 @@
 .need-help-button:hover .btn-help {
     color: #3DA9A9;
 }
-.settings .settings-inner {
-    background-color: transparent !important;
+.settings-inner {
+    background: rgba(0, 0, 0, .9) !important;
 }
 .notification-settings-modal .mute-server .checkbox .label {
     color: #fff;
 }
 .notification-settings-modal .settings-section {
     color: #fff;
-    background: rgba(0, 0, 0, .9) !important;
 }
 .channel-notification-settings .content label {
     color: #ABAAAA;
@@ -96,7 +95,6 @@
 }
 .notification-settings-modal .notification-settings-modal-channel-settings-list {
     box-shadow: 0 -1px #3DA9A9;
-    background: rgba(0, 0, 0, .9) !important;
 }
 .notification-settings-modal .notification-settings-modal-channel-settings-header {
     background: rgba(0, 0, 0, .9) !important;
@@ -3061,4 +3059,9 @@ span.replyer {
     bottom: 0 !important;
     left: 0 !important;
     right: 0 !important;
+}
+.settings-section.control-groups {
+    background-color: rgba(0, 0, 0, .9) !important;
+    padding-bottom: 19px;
+    margin-bottom: -18px;
 }
