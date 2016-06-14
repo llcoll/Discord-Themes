@@ -13,12 +13,12 @@
     background-size: cover !important;
 }
 .callout-backdrop {
-    opacity: .9 !important;
+    opacity: .4 !important;
     background-image: url("https://thentirety.com/wp-content/uploads/2015/09/esdeath-frozen-swords-anime-girl-akame-ga-kill-1920x1080.jpg") !important;
     background-size: cover !important;
 }
 .Select-control {
-    background: #2E3136;
+    background: transparent !important;
     border: #3DA9A9;
     border-color: #3DA9A9 #3DA9A9 #3DA9A9;
 }
@@ -43,7 +43,7 @@
 }
 .tab-bar.SIDE {
     overflow-y: hidden;
-    background-color: rgba(46, 49, 54, .5) !important;
+    background-color: rgba(0, 0, 0, .5) !important;
 }
 .tab-bar.SIDE .tab-bar-item.selected, 
 .tab-bar.SIDE .tab-bar-item:hover {
@@ -76,14 +76,16 @@
     color: #3DA9A9;
 }
 .settings .settings-inner {
-    background-color: #36393e;
+    background-color: transparent !important;
 }
 .notification-settings-modal .mute-server .checkbox .label {
     color: #fff;
 }
 .notification-settings-modal .settings-section {
     color: #fff;
+    background: rgba(0, 0, 0, .9) !important;
 }
+
 .channel-notification-settings .content label {
     color: #ABAAAA;
 }
@@ -95,6 +97,10 @@
 }
 .notification-settings-modal .notification-settings-modal-channel-settings-list {
     box-shadow: 0 -1px #3DA9A9;
+    background: rgba(0, 0, 0, .9) !important;
+}
+.notification-settings-modal .notification-settings-modal-channel-settings-header {
+    background: rgba(0, 0, 0, .9) !important;
 }
 .chat .new-messages-bar button {
     background: #3DA9A9;
@@ -279,8 +285,8 @@
     border-top: 1px solid #414958;
 }
 .form .form-header {
-    background: #353940;
-    border-bottom: 1px solid #494C50;
+    background: rgba(0, 0, 0, .9) !important;
+    border-bottom: 1px solid #3DA9A9;
 }
 .popout header {
     background-color: #3DA9A9;
@@ -670,8 +676,8 @@
     background-position: 55px 0px;
 }
 .user-settings-modal-games {
-    background: #2E3136;
-    border-top: 1px solid #404040;
+    background: transparent !important;
+    border-top: 1px solid #3DA9A9;
     color: #E2E2E3;
 }
 .user-settings-modal-games .games-table .games-row .item-game .last-played {
@@ -703,8 +709,8 @@
     border-bottom: 1px solid #404040;
 }
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .btn {
-    background: #2E3136;
-    border: 2px solid #282B2F;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: transparent !important;
     background-repeat: no-repeat;
     background-position: 50%;
 }
@@ -1211,7 +1217,8 @@ textarea {
     width: 30px;
 }
 .settings .settings-header {
-    background: #1a1d20 !important;
+    background: rgba(0, 0, 0, .8) !important;
+    border-right: 1px solid #3DA9A9;
 }
 .channel-notification-settings .content .content-inner {
     background: transparent !important;
@@ -1255,7 +1262,7 @@ textarea {
 .form .control-group input[type=password],
 .form .control-group input[type=text],
 .form .control-group textarea {
-    background: #32353A;
+    background: transparent !important;
     color: #90A0AA;
     border-bottom: 1px solid #232529;
     border-radius: 3px;
@@ -1326,12 +1333,14 @@ a:link {
 .user-settings-modal a {
     color: #3DA9A9;
 }
-.user-settings-modal .settings-wrapper,
+.user-settings-modal .settings-wrapper {
+    background: rgba(0, 0, 0, .9);
+}
 .user-settings-modal .voice-settings {
-    background: #2E3136;
+    background: transparent !important
 }
 .settings .settings-actions {
-    background-color: #2E3136;
+    background-color: rgba(0, 0, 0, .9);
     border-top: 1px solid #3DA9A9;
 }
 .checkbox .checkbox-inner+span {
@@ -1370,7 +1379,7 @@ a:link {
     border: 1px solid #3DA9A9;
 }
 .radio .radio-inner {
-    background: #454950;
+    background: transparent !important;
     border: 2px solid #3DA9A9;
 }
 .tab-bar.TOP {
@@ -2337,7 +2346,7 @@ div#bd-pub-button:hover {
     color: #A0A0A0;
 }
 .bda-slist li:nth-child(odd) {
-    background: #2E3136;
+    background: transparent !important;
     border-top: none;
     border-radius: none;
 }
@@ -2352,7 +2361,7 @@ div#bd-pub-button:hover {
     font-size: 14px;
 }
 .bda-slist li {
-    background: #2E3136;
+    background: transparent !important;
     border-bottom: 2px solid #3DA9A9;
     border-radius: none;
 }
@@ -3042,4 +3051,13 @@ span.replyer {
 }
 #bd-customcss-detach-container {
     background #000;
+}
+.bd-settings > div:last-child {
+    background: rgba(0, 0, 0, 0) !important;
+    color: #3DA9A9 !important;
+    height: 30px !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
 }
