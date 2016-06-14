@@ -3049,7 +3049,7 @@ span.replyer {
     background-color: #3DA9A9 !important;
 }
 #bd-customcss-detach-container {
-    background #000;
+    background: #000;
 }
 .bd-settings > div:last-child {
     background: rgba(0, 0, 0, 0) !important;
