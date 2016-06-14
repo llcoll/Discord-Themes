@@ -5,7 +5,7 @@
 
 ~User Settings~
 
-<img src="http://i.imgur.com/D9W6mac.png"/>
+<img src="http://i.imgur.com/kmV3plU.jpg"/>
 
 ~Emotes~
 
