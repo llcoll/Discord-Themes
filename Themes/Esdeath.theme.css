@@ -1243,10 +1243,10 @@ textarea {
     color: #3DA9A9;
 }
 .create-guild-container .create-or-join .form-inner {
-    background-color: #282b30;
+    background-color: rgba(0, 0, 0, .4) !important;
 }
 .create-guild-container .action {
-    background: #31343A;
+    background: rgba(0, 0, 0, .1) !important;
 }
 .create-guild-container .create-or-join .actions .or {
     background-image: none;
