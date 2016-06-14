@@ -13,9 +13,10 @@
     background-size: cover !important;
 }
 .callout-backdrop {
-    opacity: .4 !important;
+    opacity: 1 !important;
     background-image: url("https://thentirety.com/wp-content/uploads/2015/09/esdeath-frozen-swords-anime-girl-akame-ga-kill-1920x1080.jpg") !important;
     background-size: cover !important;
+    -webkit-filter: brightness(35%);
 }
 .Select-control {
     background: transparent !important;
@@ -43,7 +44,7 @@
 }
 .tab-bar.SIDE {
     overflow-y: hidden;
-    background-color: rgba(0, 0, 0, .5) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 .tab-bar.SIDE .tab-bar-item.selected, 
 .tab-bar.SIDE .tab-bar-item:hover {
@@ -76,7 +77,7 @@
     color: #3DA9A9;
 }
 .settings-inner {
-    background: rgba(0, 0, 0, .9) !important;
+    background: rgba(0, 0, 0, .6) !important;
 }
 .notification-settings-modal .mute-server .checkbox .label {
     color: #fff;
@@ -97,7 +98,7 @@
     box-shadow: 0 -1px #3DA9A9;
 }
 .notification-settings-modal .notification-settings-modal-channel-settings-header {
-    background: rgba(0, 0, 0, .9) !important;
+    background: rgba(0, 0, 0, 0) !important;
 }
 .chat .new-messages-bar button {
     background: #3DA9A9;
@@ -209,7 +210,7 @@
     border-top-color: #3DA9A9;
 }
 .region-select-modal {
-    background: #36393e;
+    background: transparent !important;
 }
 .region-select-modal .region-select-modal-header {
     color: #3DA9A9;
@@ -281,10 +282,10 @@
 }
 .form .form-actions {
     border-top: 1px solid #3DA9A9;
-    background: rgba(0, 0, 0, .9) !important;
+    background: rgba(0, 0, 0, .6) !important;
 }
 .form .form-header {
-    background: rgba(0, 0, 0, .9) !important;
+    background: rgba(0, 0, 0, .6) !important;
     border-bottom: 1px solid #3DA9A9;
 }
 .popout header {
@@ -339,11 +340,11 @@
 }
 .clipboard-input-inner button {
     border-left: 1px solid #424549;
-    background-color: #282B30;
+    background-color: transparent !important;
 }
 .clipboard-input-inner input {
     color: #2C7E7B;
-    background: #424549;
+    background: transparent !important;
 }
 .clipboard-input-inner {
     background: #1C1E22;
@@ -444,7 +445,7 @@
     color: rgb(220, 220, 220);
 }
 .guild-settings-modal-integrations .guild-settings-modal-integrations-body.no-integrations p a {
-    color: #F40000;
+    color: #3DA9A9;
 }
 .guild-settings-modal-members .guild-settings-modal-list .member .member-username {
     color: #CECECE;
@@ -1216,7 +1217,7 @@ textarea {
     width: 30px;
 }
 .settings .settings-header {
-    background: rgba(0, 0, 0, .8) !important;
+    background: rgba(0, 0, 0, .6) !important;
     border-right: 1px solid #3DA9A9;
 }
 .channel-notification-settings .content .content-inner {
@@ -1273,16 +1274,20 @@ textarea {
     border-bottom: 2px solid #3DA9A9;
 }
 .region-select {
-    background: #32353A;
+    background: transparent !important;
 }
 .region-select .region-select-inner {
-    background: #32353A;
-    border: 1px solid #232529;
+    background: transparent !important;
+    border: 1px solid #3DA9A9;
 }
 .region-select button {
-    background-color: #32353A;
-    border: 1px solid #232529;
+    background-color: transparent !important;
+    border: 1px solid #3DA9A9;
+    border-left: 0px solid transparent !important;
     color: #3DA9A9;
+}
+.region-select-name {
+ color: #3DA9A9;   
 }
 .region-select:hover .region-select-inner,
 .region-select:hover button {
@@ -1333,13 +1338,13 @@ a:link {
     color: #3DA9A9;
 }
 .user-settings-modal .settings-wrapper {
-    background: rgba(0, 0, 0, .9);
+    background: rgba(0, 0, 0, 0);
 }
 .user-settings-modal .voice-settings {
     background: transparent !important
 }
 .settings .settings-actions {
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .6);
     border-top: 1px solid #3DA9A9;
 }
 .checkbox .checkbox-inner+span {
@@ -1951,18 +1956,19 @@ div.control-group .shortcut-recorder input[type=text] {
     box-shadow: 0 0 0 0 rgba(241, 71, 71, 0)
     }
 }
-.bot-tag {
-    background: rgba(255, 255, 255, 0.28);
-    color: rgba(255, 255, 255, 0.62);
+.bot-tag {    
+    background: rgba(255, 255, 255, .15);
+    color: rgba(61, 169, 169, 1) !important;
+    border: 1px solid #3DA9A9;
 }
 .bot-tag.bot-tag-invert {
     font-size: 11px !important;
     color: hsla(0, 0%, 100%, 0.7) !important;
     margin-left: 8px !important;
-    border-radius: 5px !important;
-    background: rgba(0, 0, 0, 0.19) !important;
+    border-radius: 0px !important;
+    background: rgba(0, 0, 0, 0) !important;
     font-weight: bold !important;
-    border: 3px solid transparent !important;
+    border-bottom: 2px solid hsla(0, 0%, 100%, 0.7) !important;
     padding: 0px;
 }
 .channel-members .member.member-status-offline .avatar-small {
@@ -2266,7 +2272,7 @@ div#bd-pub-button:hover {
     color: #FFF;
 }
 .protip .tip a {
-    color: #3DA9A9;
+    color: rgba(0, 0, 0, .3);
 }
 .user-settings-appearance .protip .label, .user-settings-streamer-mode .protip {
     background-color: #3DA9A9;
@@ -3061,7 +3067,7 @@ span.replyer {
     right: 0 !important;
 }
 .settings-section.control-groups {
-    background-color: rgba(0, 0, 0, .9) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     padding-bottom: 19px;
     margin-bottom: -18px;
 }
