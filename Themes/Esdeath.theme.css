@@ -1,4 +1,13 @@
-/*MAKE SURE THE LINKS YOU USE ARE HTTPS:// OR THEY WONT WORK*/
+//META{"name":"Esdeath","description":"Modern Esdeath Theme.","author":"llcoll","version":"1.0"}*//
+
+/* Hey guys! Thank you for downloading this theme, my first of hopefully many. I am giving credit to Omniscient for giving me his code way back
+   when it was only 1.7k lines and all of the help he has given me along the way, if you go check out "Discord Reborn" you will see a lot of
+   similarities.*/
+   
+/*THE PRIMARY COLOR IS #3DA9A9, rgb(61, 169, 169)*/
+/*A BIG AMOUNT OF THE BACKGROUNDS THAT ARE OFF-BLACK ARE #2E3136*/
+/*MAKE SURE THE LINKS YOU USE START WITH HTTPS:// OR THEY WONT WORK*/
+
 .app {
     background-image: url("https://thentirety.com/wp-content/uploads/2015/09/esdeath-frozen-swords-anime-girl-akame-ga-kill-1920x1080.jpg") !important;
     background-size: cover !important;
