@@ -85,7 +85,6 @@
     color: #fff;
     background: rgba(0, 0, 0, .9) !important;
 }
-
 .channel-notification-settings .content label {
     color: #ABAAAA;
 }
@@ -279,10 +278,12 @@
     color: #E6E6E6;
 }
 .form .form-inner {
-    background: #34383e;
+    background: rgba(0, 0, 0, .7) !important;
+    border-bottom: 1px solid #3DA9A9;
 }
 .form .form-actions {
-    border-top: 1px solid #414958;
+    border-top: 1px solid #3DA9A9;
+    background: rgba(0, 0, 0, .9) !important;
 }
 .form .form-header {
     background: rgba(0, 0, 0, .9) !important;
