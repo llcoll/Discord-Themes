@@ -351,7 +351,7 @@
     border: 1px solid #2E3136;
 }
 .clipboard-input-inner button:first-of-type:before {
-    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #313131);
+    background: linear-gradient(90deg, hsla(0, 0%, 50%, 0), #3DA9A9);
 }
 ::selection {
     color: #fff;
@@ -3079,4 +3079,8 @@ span.replyer {
 .is-open.is-focused .Select-menu::-webkit-scrollbar-thumb {
     background: #3DA9A9;
     border-radius: 10px;
+}
+.clipboard-input-inner { 
+    background: transparent;
+    border: 1px solid #3DA9A9;
 }
