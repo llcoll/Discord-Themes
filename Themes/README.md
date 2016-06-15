@@ -44,10 +44,19 @@ into
 
 ```
 
+```
 To change the color scheme, the primary color of this theme is #3DA9A9 a.k.a. rgb(61, 169, 169).
 Paste this code into a new document and replace all color values with the value of your choice.
+```
 
+~Plugins skinned~
+```
+Replayer - Cosmicsalads
+Clock Plugin - Jiiks
+Search - Mitchell
+```
 
+PM me if you find any breaks or have suggestions!
 Keep in mind, this is version 1.0, expect improvements :D
 
 Enjoy ~
