@@ -3100,3 +3100,15 @@ span.replyer {
     -webkit-animation: mentionpulse 2s infinite;
     animation: mentionpulse 2s infinite;
 }
+.bda-slist .bda-right .btn:disabled {
+    padding: 0;
+    border: 2px solid #666666;
+}
+.bda-slist .bda-right .btn:disabled:hover {
+    padding: 0px;
+    border: 2px solid #666666;
+    color: #666666;
+}
+.bda-slist .bda-right .btn {
+    padding: 0px;
+}
