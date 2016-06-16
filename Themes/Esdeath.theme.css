@@ -849,7 +849,7 @@ textarea {
 .guilds .friends-online {
     position: relative;
     margin-left: -5px;
-	bottom: 1px;
+    bottom: 1px;
 }
 .guilds .friends-online:hover {
     color: #dadddf;
@@ -1392,7 +1392,7 @@ a:link {
     background-color: #3DA9A9;
 }
 .guild-settings-modal-members .member-buttons .btn {
-    background: #3DA9A9;
+    background: transparent !important;
     border: 1px solid #3DA9A9;
     color: #EFEFEF;
 }
@@ -2170,7 +2170,7 @@ img.image {
 }
 .user-settings-modal .btn-ghost:hover {
     color: #3DA9A9;
-	border: 2px solid #3DA9A9;
+    border: 2px solid #3DA9A9;
 }
 .mfa-modal .form-inner p {
     color: #B9B9B9 !important;
@@ -2179,7 +2179,7 @@ img.image {
     border-bottom: 1px solid #080808;
 }
 .form .btn {
-    -webkit-transition: all .2s ease-in-out !important;
+    -webkit-transition: all .2s ease-in-out;
 }
 .user-settings-modal .link-button {
     color: #3DA9A9;
@@ -2543,8 +2543,8 @@ button.win-minimize:hover {
     transition: 0.4s ease-in-out opacity;
 }
 .guilds li:not(.active):not(:first-of-type):hover {
-	opacity:1;
-	transition:0.2s ease-in-out opacity;
+    opacity:1;
+    transition:0.2s ease-in-out opacity;
 }
 .emoji-picker .search-bar-clear {
     background: #FFFFFF;
