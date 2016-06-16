@@ -350,7 +350,7 @@
     border: 1px solid #2E3136;
 }
 .clipboard-input-inner button:first-of-type:before {
-    background: linear-gradient(90deg, hsla(0, 0%, 50%, 0), #3DA9A9);
+    background: linear-gradient(90deg, hsla(0, 0%, 0%, 0), transparent);
 }
 ::selection {
     color: #fff;
@@ -1490,8 +1490,6 @@ a:link {
 .private-channels .search-result:hover:before {
     border-left: 4px solid #2C7E7B;
 }
-/*[[Onlineon]]*/
-/*[[Onlineoff]]*/
 .channel-members-wrap {
     min-width: 240px;
     display: -webkit-box;
@@ -1751,8 +1749,6 @@ a:link {
 #user-profile-modal .empty {
     background: #2E3136;
 }
-/*[[Hidden]]*/
-/*[[Visible]]*/
 .message-group-blocked {
     background: #fcfcfc;
     -webkit-box-pack: center;
@@ -1842,8 +1838,6 @@ a:link {
 }
 .user-settings-modal.settings {
     opacity: 1;
-/*[[NSFWON]]*/
-/*[[NSFWOFF]]*/
 }
 .message-group .image {
     -webkit-filter: none;
@@ -2228,7 +2222,7 @@ div#bd-pub-button:hover {
     transition: .3s all ease-in-out;
 }
 #friends .friends-table .friends-row+.friends-row {
-    border-top: 1px solid rgba(0, 0, 0, 0.34);
+    border-top: 1px solid rgba(61, 169, 169, .2) !important;
 }
 .tab-bar.TOP .tab-bar-item {
     color: #BBBBBB;
@@ -2920,20 +2914,17 @@ span.replyer {
     width: 10px;
     height: 10px;
 }
-
 .CodeMirror > ::-webkit-scrollbar-thumb {
     background-color: #3DA9A9;
     background-clip: padding-box;
     color: #3DA9A9;
     border-radius: 7px;
 }
-
 .CodeMirror > ::-webkit-scrollbar-track-piece {
     background-color: rgba(0, 0, 0, 0.5) !important;
     background-clip: padding-box;
     border-radius: 7px;
 }
-
 .CodeMirror-scrollbar-filler {
     background: transparent !important;
 }
@@ -3082,4 +3073,30 @@ span.replyer {
 .clipboard-input-inner { 
     background: transparent;
     border: 1px solid #3DA9A9;
+}
+@-webkit-keyframes mentionpulse {
+    0% {
+    box-shadow: 0 0 0 0 rgba(250,166,26, .23);
+    }
+    70% {
+    box-shadow: 0 0 5px 5px rgba(241, 71, 71, 0)
+    }
+    to {
+    box-shadow: 0 0 0 0 rgba(241, 71, 71, 0)
+    }
+}
+@keyframes mentionpulse {
+    0% {
+    box-shadow: 0 0 0 0 rgba(250,166,26, .23);
+    }
+    70% {
+    box-shadow: 0 0 5px 5px rgba(241, 71, 71, 0)
+    }
+    to {
+    box-shadow: 0 0 0 0 rgba(241, 71, 71, 0)
+    }
+}
+.message-group .mentioned .message-text {
+    -webkit-animation: mentionpulse 2s infinite;
+    animation: mentionpulse 2s infinite;
 }
