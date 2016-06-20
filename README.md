@@ -1,8 +1,9 @@
 # Discord Themes
 
-How to use themes
+
+~How to use themes~
 ```
-Step 1: Enter the `themes` folder and select the desired theme.\
+Step 1: Enter the "themes" folder and select the desired theme.\
 Step 2: Right Click the Raw Button
 Step 3: Click Save As Link
 Step 4: Wins Save to %appdata%\betterdiscord\themes\ 
@@ -15,6 +16,8 @@ Step 7: Open Discord Settings>BetterDiscord>Themes>Enable theme
 To change the pics, just add the code below in the `Custom CSS` tab of the `BetterDiscord` settings:
 
 ( Be sure to add the `s` after `http` when you change the pic or it won't appear )
+
+
 ```css
 .app {
     background-image: url("https://thentirety.com/wp-content/uploads/2015/09/esdeath-frozen-swords-anime-girl-akame-ga-kill-1920x1080.jpg") !important;
