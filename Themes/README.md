@@ -15,7 +15,7 @@
 
 <img src="http://i.imgur.com/lHlb6eM.gif"/>
 
-# Akame Theme
+# Akame Theme - Akame Ga Kill
 ~Main Screen~
 
 <img src="http://i.imgur.com/lHlb6eM.gif"/>
