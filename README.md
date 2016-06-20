@@ -1,13 +1,15 @@
 # Discord Themes
 
+How to use themes
 ```
-Step 1: Right Click the Raw Button
-Step 2: Click Save As Link
-Step 3: Wins Save to %appdata%\betterdiscord\themes\ 
-Step 3: Macs Save to ~/Library/Preferences/themes 
-Step 4: Make sure the extension is .theme.css
-Step 5: Restart Discord
-Step 6: Open Discord Settings>BetterDiscord>Themes>Enable theme
+Step 1: Enter the `themes` folder and select the desired theme.\
+Step 2: Right Click the Raw Button
+Step 3: Click Save As Link
+Step 4: Wins Save to %appdata%\betterdiscord\themes\ 
+Step 4: Macs Save to ~/Library/Preferences/themes 
+Step 5: Make sure the extension is .theme.css
+Step 6: Restart Discord
+Step 7: Open Discord Settings>BetterDiscord>Themes>Enable theme
 ```
 
 To change the pics, just add the code below in the `Custom CSS` tab of the `BetterDiscord` settings:
