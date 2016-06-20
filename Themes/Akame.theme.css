@@ -1,5 +1,8 @@
 //META{"name":"Akame","description":"Modern Akame Theme.","author":"llcoll","version":"1.0"}*//
 
+/*THE PRIMARY COLOR IS #A93D3D, rgb(169, 61, 61)*/
+/*MAKE SURE THE LINKS YOU USE START WITH HTTPS:// OR THEY WONT WORK*/
+
 .app {
     background-image: url("https://i.imgur.com/6DOrpXX.jpg") !important;
     background-size: cover !important;
