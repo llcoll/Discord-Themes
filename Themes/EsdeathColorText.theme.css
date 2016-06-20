@@ -1010,6 +1010,7 @@ textarea {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
+    line-height: 27px !important;
 }
 .chat>.content .messages .message-group .markup .highlight:hover {
     color: #fff !important;
