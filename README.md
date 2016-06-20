@@ -33,8 +33,8 @@ into
 
 ```
 
-To change the color scheme, the primary color of this theme is #3DA9A9 a.k.a. rgb(61, 169, 169).
-Paste this code into a new document and replace all color values with the value of your choice.
+To change the color scheme, locate the primary color of the theme (usually the top of the theme) and 
+paste the theme into a new document and replace all color values with the value of your choice.
 
 
 ~Plugins skinned~
