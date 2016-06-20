@@ -227,22 +227,22 @@
     background: #282D2F;
 }
 .change-log .header {
-    color: #2C7E7B;
+    color: #7E2C2F;
     border-bottom: 1px solid #4C4C4C;
 }
 .change-log ul li {
-    color: #2C7E7B;
+    color: #7E2C2F;
 }
 .change-log .footer {
     border-top: 1px solid #4C4C4C;
-    color: #2C7E7B;
+    color: #7E2C2F;
     background-color: #282D2F;
 }
 .download-apps .platforms .platform {
-    border: 2px solid #2C7E7B;
+    border: 2px solid #7E2C2F;
 }
 .download-apps .footer {
-    color: #2C7E7B;
+    color: #7E2C2F;
 }
 .download-apps .footer a {
     color: #A93D3D;
@@ -254,7 +254,7 @@
     border-color: #A93D3D;
 }
 .user-settings-modal a:hover {
-    color: #2C7E7B;
+    color: #7E2C2F;
 }
 .private-channels .channel.selected:before {
     border-left: 4px solid #A93D3D;
@@ -266,7 +266,7 @@
     color: #A93D3D;
 }
 .user-settings-modal .voice-settings .reset-voice-settings:hover {
-    color: #2C7E7B;
+    color: #7E2C2F;
 }
 .modal-content .form-inner p {
     color: #E6E6E6;
@@ -309,7 +309,7 @@
     border: 1px solid #A93D3D;
 }
 .user-popout .user-popout-options .btn:hover {
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 .chat .welcome-message h1 {
     color: #A93D3D;
@@ -319,7 +319,7 @@
     background-color: #A93D3D;
 }
 .channel-members .invite-btn:hover {
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 .instant-invite-popout hr {
     border: 1px solid #A93D3D;
@@ -328,7 +328,7 @@
     color: #A93D3D;
 }
 .instant-invite-popout a:hover {
-    color: #2C7E7B;
+    color: #7E2C2F;
 }
 .clipboard-input-inner input::selection {
     background: #A93D3D;
@@ -338,7 +338,7 @@
     background-color: transparent !important;
 }
 .clipboard-input-inner input {
-    color: #2C7E7B;
+    color: #7E2C2F;
     background: transparent !important;
 }
 .clipboard-input-inner {
@@ -381,13 +381,13 @@
     color: #A93D3D;
 }
 #permissions .permissions-helpdesk:hover {
-    color: #2C7E7B;
+    color: #7E2C2F;
 }
 #settings-roles .roles li.selected:before {
     background-color: #A93D3D;
 }
 #settings-roles .roles li:hover:before {
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 .instant-invites .instant-invites-header {
     border-bottom: 1px solid #A93D3D;
@@ -420,7 +420,7 @@
     color: #A93D3D;
 }
 .avatar-uploader a:hover {
-    color: #2C7E7B;
+    color: #7E2C2F;
 }
 .instant-invites .instant-invites-list .instant-invite .show-channel .channel {
     color: #B3B3B3;
@@ -470,7 +470,7 @@
     color: #A93D3D;
 }
 .guild-settings-modal-members .guild-settings-modal-members-footer a:hover {
-    color: #2C7E7B;
+    color: #7E2C2F;
 }
 .guild-settings-modal-members .guild-settings-modal-members-footer {
     border-top: 1px solid #2E3136;
@@ -488,11 +488,11 @@
 }
 .user-popout .user-popout-options .btn.btn-server:hover {
     border-color: #A93D3D;
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 .member-roles .manipulate:hover {
     border-color: #A93D3D;
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 #user-profile-modal header {
     background-image: none;
@@ -506,7 +506,7 @@
     color: #ADADAD;
 }
 .need-help-modal a:hover {
-    color: #2C7E7B;
+    color: #7E2C2F;
 }
 #user-profile-modal footer {
     background: #1e2124;
@@ -530,7 +530,7 @@
     background: #A93D3D;
 }
 .guilds li.unread .guild-inner:before {
-    background: #2C7E7B;
+    background: #7E2C2F;
 }
 .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
     background: #A93D3D;
@@ -710,7 +710,7 @@
     background-position: 50%;
 }
 .alert.form .form-inner .btn {
-    border: 1px solid #2C7E7B;
+    border: 1px solid #7E2C2F;
 }
 .alert.form .form-inner .cancel {
     border-color: #99aab5 !important;
@@ -1018,6 +1018,10 @@ textarea {
 .chat>.content .messages .message-group .markup .highlight:hover {
     color: #fff !important;
 }
+.chat>.content .messages .message-group .markup {
+    color: rgba(255, 255, 255, 0.5) !important;
+    line-height: 1.5em;
+}
 .chat>.content .messages .message-group h2 .user-name {
     color: rgba(255, 255, 255, 0.8);
 }
@@ -1293,7 +1297,7 @@ textarea {
 }
 .avatar-uploader .avatar-uploader-inner {
     background-color: #A93D3D;
-    border: 5px solid #2C7E7B;
+    border: 5px solid #7E2C2F;
 }
 .form .form-actions {
     background-color: #282B30;
@@ -1310,7 +1314,7 @@ textarea {
     color: #A93D3D;
 }
 .create-guild-container .action:hover.create .btn {
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
     background-color: #A93D3D !important;
@@ -1390,10 +1394,10 @@ a:link {
     color: #EFEFEF;
 }
 .guild-settings-modal-members .member-buttons .btn.btn-danger:hover {
-    background: #2C7E7B;
+    background: #7E2C2F;
 }
 .guild-settings-modal-members .member-buttons .btn.btn-danger {
-    border: 1px solid #2C7E7B;
+    border: 1px solid #7E2C2F;
     color: #FFFFFF;
 }
 .guild-settings-modal-members .guild-settings-modal-list .member+.member {
@@ -1412,7 +1416,7 @@ a:link {
     background-size: 10px;
 }
 .member-roles .member-role:hover {
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 .guilds-add:hover {
     border-color: hsl(145, 64%, 50%);
@@ -1481,7 +1485,7 @@ a:link {
 }
 .private-channels .search-result.selected:before,
 .private-channels .search-result:hover:before {
-    border-left: 4px solid #2C7E7B;
+    border-left: 4px solid #7E2C2F;
 }
 .channel-members-wrap {
     min-width: 240px;
@@ -1698,10 +1702,10 @@ a:link {
     background-color: #A93D3D;
 }
 #friends .btn:hover {
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 .private-channels .channel.selected .icon-friends {
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 .add-friend-popout {
     background: transparent;
@@ -1710,7 +1714,7 @@ a:link {
     border-color: hsla(0, 0%, 100%, .3);
 }
 .add-friend-popout .btn:disabled {
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 #user-profile-modal .sub-header {
     background: #2E3136;
@@ -1723,7 +1727,7 @@ a:link {
     background-color: #A93D3D;
 }
 #user-profile-modal .btn:hover {
-    background-color: #2C7E7B;
+    background-color: #7E2C2F;
 }
 #user-profile-modal .header {
     background-color: #A93D3D;
@@ -2116,7 +2120,7 @@ img.image {
     border-top: 0px solid #6fd0fc;
 }
 .guild-header ul li:hover a {
-    background-color: #057F95;
+    background-color: #951B05;
     transition: .3s all ease-in-out;
 }
 .guild-header a.red-highlight:hover {
@@ -2178,7 +2182,7 @@ img.image {
     color: #A93D3D;
 }
 .user-settings-modal .link-button:hover {
-    color: #057F95;
+    color: #951B05;
 }
 .radio-theme input[type=radio]:checked~label {
     border-color: #A93D3D;
@@ -2483,13 +2487,13 @@ button.win-minimize:hover {
     background-color: transparent;
 }
 .guild-settings-modal-members .member-buttons .btn:hover {
-    background: #057F95;
+    background: #951B05;
 }
 .guild-settings-modal-members .guild-settings-modal-members-header .form .Select .Select-value {
     color: #DDD;
 }
 .form .control-group label a:hover {
-    color: #057F95;
+    color: #951B05;
 }
 .theme-dark.context-menu .item-subMenu {
     background: transparent url(https://discordapp.com/assets/1988164a7c55346d32117b151f4e319d.svg) no-repeat 155px 50%;
@@ -2509,8 +2513,8 @@ button.win-minimize:hover {
     background: #A93D3D;
 }
 .user-popout .avatar-wrapper .avatar-popout {
-    border: 4px solid #057F95;
-    background-color: #057F95;
+    border: 4px solid #951B05;
+    background-color: #951B05;
 }
 .user-popout .body {
     background: #000;
@@ -2677,7 +2681,7 @@ form.auth-form {
     background-color: #A93D3D;
 }
 .button:hover {
-    background-color: #057F95;
+    background-color: #951B05;
 }
 #friends .friends-header .tab-bar .tab-bar-separator {
     background-color: rgba(0, 0, 0, 0.75);
