@@ -18,6 +18,8 @@
 # Akame Theme - Akame Ga Kill
 ~Main Screen~
 
-<img src="http://i.imgur.com/lHlb6eM.gif"/>
+<img src="http://i.imgur.com/dDAiayW.jpg"/>
 
 ~User Settings~
+
+<img src="http://i.imgur.com/oBnlIvM.jpg"/>
