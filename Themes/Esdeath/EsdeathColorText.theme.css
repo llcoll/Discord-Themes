@@ -3102,3 +3102,39 @@ span.replyer {
 .bda-slist .bda-right .btn {
     padding: 0px;
 }
+.theme-dark .channel-pins-wrap {
+    background: rgba(0, 0, 0, .6) !important;
+}
+.theme-dark .channel-pins-wrap .header {
+    background: transparent !important;
+    border-bottom: 1px solid #3DA9A9;
+}
+.theme-dark .channel-pins-wrap .channel-pins .message-group,
+.theme-dark .channel-pins-wrap .channel-pins .message-group:hover {
+    background: transparent !important;
+    border-bottom: 1px solid #3DA9A9;
+    border-top: transparent !important;
+    border-right: transparent !important;
+    border-left: transparent !important;
+}
+.theme-dark .channel-pins-wrap .channel-pins .message-group .action-buttons .jump-button {
+    background-color: transparent !important;
+    border: 1px solid #3DA9A9;
+    color: #fff !important;
+}
+.theme-dark .channel-pins-wrap .channel-pins .message-group .action-buttons .jump-button:hover {
+    color: #3DA9A9 !important;
+}
+.theme-dark .channel-pins-wrap .channel-pins .message-group:hover {
+    border-color: #3DA9A9 !important;
+}
+.theme-dark .channel-pins-wrap .footer {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+.chat .jump-to-present-bar button {
+    background: rgba(61, 169, 169, .6) !important;
+}
+.theme-dark .channel-pins-wrap .channel-pins .message-group:hover .action-buttons {
+    box-shadow: 0 0 6px 4px transparent !important;
+    background-color: transparent !important;
+}
