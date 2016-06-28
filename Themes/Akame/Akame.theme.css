@@ -316,10 +316,11 @@
     width: 260px;
 }
 .channel-members .invite-btn {
-    background-color: #A93D3D;
+    background-color: transparent !important;
+    border: 2px solid #A93D3D;
 }
 .channel-members .invite-btn:hover {
-    background-color: #7E2C2F;
+    color: #A93D3D;
 }
 .instant-invite-popout hr {
     border: 1px solid #A93D3D;
