@@ -2081,8 +2081,8 @@ img.image {
     background-color: hsla(0, 0%, 0%, 0.78);
 }
 .markdown-modal .markdown-modal-footer {
-    background-color: #232729;
-    border-top: 1px solid #1A1E1F;
+    background-color: rgba(0, 0, 0, .6);
+    border-top: 1px solid #A93D3D;
 }
 .markdown-modal .markdown-modal-header {
     border-bottom: 1px solid #1A1E1F;
