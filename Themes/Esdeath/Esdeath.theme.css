@@ -8,12 +8,12 @@
 /*MAKE SURE THE LINKS YOU USE START WITH HTTPS:// OR THEY WONT WORK*/
 
 .app {
-    background-image: url("https://thentirety.com/wp-content/uploads/2015/09/esdeath-frozen-swords-anime-girl-akame-ga-kill-1920x1080.jpg") !important;
+    background-image: url("https://images7.alphacoders.com/592/592539.jpg") !important;
     background-size: cover !important;
 }
 .callout-backdrop {
     opacity: 1 !important;
-    background-image: url("https://thentirety.com/wp-content/uploads/2015/09/esdeath-frozen-swords-anime-girl-akame-ga-kill-1920x1080.jpg") !important;
+    background-image: url("https://images7.alphacoders.com/592/592539.jpg") !important;
     background-size: cover !important;
     -webkit-filter: brightness(35%);
 }
