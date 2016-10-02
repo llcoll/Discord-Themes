@@ -3204,4 +3204,22 @@ span.replyer {
 }
 .private-channel-call .speaking {
     border: 4px solid #3DA9A9;
+}.popout-menu .popout-menu-item {
+    background: rgba(0, 0, 0, .6);
+}
+.popout-menu .popout-menu-item.invite {
+    color: #3DA9A9;
+}
+.popout-menu .popout-menu-item:hover.invite {
+    color: #ffffff;
+}
+.popout-menu .popout-menu-item:hover {
+    background: rgba(61, 169, 169, .6);
+    color: #eeeeee;
+}
+.popout-menu .popout-menu-item.leave:hover {
+    color: #f04747 !important;
+}
+.popout-menu {
+    background: rgba(0, 0, 0, 0);
 }
