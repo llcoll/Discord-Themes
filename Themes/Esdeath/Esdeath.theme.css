@@ -3273,3 +3273,16 @@ span.replyer {
 #user-profile-modal .avatar-wrapper {
     background-color: rgba(0, 0, 0, 0);
 }
+#user-profile-modal .header .header-info .header-info-inner .activity {
+    color: #fff;
+}
+#user-profile-modal .actions .btn.add-friend:hover {
+    background: #3DA9A9;
+    color: #fff
+}
+#user-profile-modal .actions .btn.add-friend {
+    background: rgba(0, 0, 0, 0);
+    border-bottom-color: #3DA9A9;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, .5);
+}
