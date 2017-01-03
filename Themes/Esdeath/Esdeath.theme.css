@@ -1,9 +1,5 @@
 //META{"name":"Esdeath","description":"Modern Esdeath Theme.","author":"llcoll","version":"1.0"}*//
 
-/* Hey guys! Thank you for downloading this theme, my first of hopefully many. I am giving credit to Omniscient for giving me his code way back
-   when it was only 1.7k lines and all of the help he has given me along the way, if you go check out "Discord Reborn" you will see a lot of
-   similarities.*/
-   
 /*THE PRIMARY COLOR IS #3DA9A9, rgb(61, 169, 169)*/
 /*MAKE SURE THE LINKS YOU USE START WITH HTTPS:// OR THEY WONT WORK*/
 
@@ -498,13 +494,6 @@
 .member-roles .manipulate:hover {
     border-color: #3DA9A9;
     background-color: #2C7E7B;
-}
-#user-profile-modal header {
-    background-image: none;
-    background-color: #3DA9A9;
-}
-#user-profile-modal .scroller {
-    background: #2E3136;
 }
 #user-profile-modal .friends .friend:hover {
     background: #26292D;
@@ -1733,10 +1722,6 @@ a:link {
 }
 #user-profile-modal .btn:hover {
     background-color: #2C7E7B;
-}
-#user-profile-modal .header {
-    background-color: #3DA9A9;
-    background-image: none;
 }
 .context-menu {
     background: #2E3136;
@@ -3257,5 +3242,34 @@ span.replyer {
     box-shadow: 0 0 10px 6px rgba(61, 169, 169, .2);
 }
 .theme-dark .search-results-wrap .action-buttons .jump-button {
+    background-color: rgba(0, 0, 0, 0);
+}
+#user-profile-modal .tab-bar-container {
+    background-color: rgba(0, 0, 0, .5);
+    border: 2px solid rgba(61, 169, 169, .5);
+}
+#user-profile-modal .tab-bar {
+    background: rgba( 0, 0, 0,.5);
+}
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    border-bottom-color: rgb(61, 169, 169);
+    color: #fff;
+    font-weight: 600;
+}
+#user-profile-modal .tab-bar .tab-bar-item {
+    color: rgba(255, 255, 255, .4);
+    border-bottom-color: rgba(61, 169, 169, .4);
+    font-weight: lighter;
+}
+#user-profile-modal .scroller {
+    background: rgba(0, 0, 0, .4);
+    border-left: 2px solid rgba(61, 169, 169, .4);
+    border-right: 2px solid rgba(61, 169, 169, .4);
+    border-bottom: 2px solid rgba(61, 169, 169, .4);
+}
+#user-profile-modal .header {
+    background: rgba(61, 169, 169, .5);
+}
+#user-profile-modal .avatar-wrapper {
     background-color: rgba(0, 0, 0, 0);
 }
