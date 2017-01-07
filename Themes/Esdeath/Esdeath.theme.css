@@ -3289,3 +3289,25 @@ span.replyer {
     border-right: 2px solid rgba(61, 169, 169, .4);
     border-bottom: 2px solid rgba(61, 169, 169, .4);
 }
+.instant-invite-modal {
+    background: rgba(0, 0, 0, .6);
+    border: 2px solid rgba(61, 169, 169, .5);
+}
+#instant-invite-modal .form-header {
+    border-bottom: 2px solid rgba(61, 169, 169, .5);
+}
+#instant-invite-modal .form-header header {
+    padding-top: 15px;
+    padding-bottom: 3px;
+    color: rgba(61, 169, 169, 1);
+}
+#instant-invite-modal .blurb {
+    padding-bottom: 15px;
+    color: rgba(61, 169, 169, .7);
+}
+#instant-invite-modal .copy:selected {
+    background: #3DA9A9;
+}
+#instant-invite-modal .expire-text {
+    color: rgba(61, 169, 169, .7);
+}
