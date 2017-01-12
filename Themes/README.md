@@ -39,7 +39,7 @@ paste the theme into a new document and replace all color values with the value 
 
 ~Plugins skinned~
 ```
-Replayer - Cosmicsalads
+Replyer - Cosmicsalads
 Clock Plugin - Jiiks
 Search - Mitchell
 ```
