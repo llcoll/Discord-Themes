@@ -13,6 +13,9 @@
     background-size: cover !important;
     -webkit-filter: brightness(35%);
 }
+.layers { 
+    background: transparent !important; 
+}
 .Select-control {
     background: transparent !important;
     border: #3DA9A9;
