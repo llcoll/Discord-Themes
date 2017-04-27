@@ -1,20 +1,20 @@
-//META{"name":"Esdeath","description":"Modern Esdeath Theme.","author":"llcoll","version":"1.0"}*//
-
-/*THE PRIMARY COLOR IS #3DA9A9, rgb(61, 169, 169)*/
-/*MAKE SURE THE LINKS YOU USE START WITH HTTPS:// OR THEY WONT WORK*/
+//META{"name":"Esdeath","description":"Modern Esdeath Theme.","author":"llcoll","version":"1.0"}*//		
+	
+/*THE PRIMARY COLOR IS #3DA9A9, rgb(61, 169, 169)*/		
+/*MAKE SURE THE LINKS YOU USE START WITH HTTPS:// OR THEY WONT WORK*/		
 
 .app {
     background-image: url("https://images7.alphacoders.com/592/592539.jpg") !important;
     background-size: cover !important;
+}
+.theme-dark .layer, .theme-dark .layers, .theme-white .layer, .theme-white .layers {
+    background: none;
 }
 .callout-backdrop {
     opacity: 1 !important;
     background-image: url("https://images7.alphacoders.com/592/592539.jpg") !important;
     background-size: cover !important;
     -webkit-filter: brightness(35%);
-}
-.layers { 
-    background: transparent !important; 
 }
 .Select-control {
     background: transparent !important;
@@ -497,6 +497,10 @@
 .member-roles .manipulate:hover {
     border-color: #3DA9A9;
     background-color: #2C7E7B;
+}
+#user-profile-modal header {
+    background-image: none;
+    background-color: #3DA9A9;
 }
 #user-profile-modal .friends .friend:hover {
     background: #26292D;
@@ -3188,11 +3192,12 @@ span.replyer {
     background: transparent !important;
 }
 .private-channel-call .btn-text.btn-danger:hover {
-    color: #F04747;
+	color: #F04747;
 }
 .private-channel-call .speaking {
     border: 4px solid #3DA9A9;
-}.popout-menu .popout-menu-item {
+}
+.popout-menu .popout-menu-item {
     background: rgba(0, 0, 0, .6);
 }
 .popout-menu .popout-menu-item.invite {
