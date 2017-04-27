@@ -292,7 +292,7 @@
 .popout section {
     background-color: hsl(218, 7%, 23%);
 }
-#voice-connection-popout hr {
+#rtc-connection-popout hr {
     border: 1px solid #4C4C4C;
 }
 .small-popout-box {
@@ -792,7 +792,7 @@ textarea {
 .guild-header header,
 .divider-red span,
 .messages-wrapper,
-#voice-connection {
+#rtc-connection {
     background: transparent !important;
 }
 .guilds-wrapper {
@@ -932,18 +932,18 @@ textarea {
 .account .btn-mute {
     border-right: none;
 }
-#voice-connection {
+#rtc-connection {
     border-top: none !important;
     padding: 15px 20px 15px 18px !important;
     position: relative;
     bottom: -25px;
     width: 220px;
 }
-#voice-connection .btn {
+#rtc-connection .btn {
     background: rgba(0, 0, 0, 0.45);
     box-shadow: none !important;
 }
-#voice-connection .btn:active {
+#rtc-connection .btn:active {
     background: rgba(0, 0, 0, 0.6);
 }
 .account .btn-deafen,
@@ -951,7 +951,7 @@ textarea {
     box-shadow: none !important;
 }
 .account .btn-group,
-#voice-connection .btn-group {
+#rtc-connection .btn-group {
     border: none;
 }
 .title-wrap {
@@ -1193,7 +1193,7 @@ textarea {
 .bd-minimal .guild-channels h2 {
     margin-left: 10px;
 }
-.bd-minimal #voice-connection {
+.bd-minimal #rtc-connection {
     width: 176px;
     margin-left: -46px;
 }
@@ -2017,7 +2017,7 @@ div.control-group .shortcut-recorder input[type=text] {
 img.image {
     border-radius: 5px;
 }
-#voice-connection .btn {
+#rtc-connection .btn {
     background: rgba(0, 0, 0, 0.45);
     box-shadow: none !important;
     border-radius: 40px;
@@ -2224,7 +2224,7 @@ div#bd-pub-button:hover {
 .tab-bar.TOP .tab-bar-item:hover {
     border-bottom: 2px solid #BBBBBB;
 }
-#voice-connection .btn-info {
+#rtc-connection .btn-info {
     border-right: 0px solid transparent;
 }
 .guild-channels .channel-voice-states li.speaking .avatar-small {
@@ -2878,7 +2878,7 @@ span.replyer {
     position: relative;
     margin-bottom: -10px;
 }
-#voice-connection .btn-group {
+#rtc-connection .btn-group {
     position: relative;
     left: -13px;
 }
@@ -3192,7 +3192,7 @@ span.replyer {
     background: transparent !important;
 }
 .private-channel-call .btn-text.btn-danger:hover {
-	color: #F04747;
+    color: #F04747;
 }
 .private-channel-call .speaking {
     border: 4px solid #3DA9A9;
