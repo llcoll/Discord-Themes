@@ -3319,3 +3319,6 @@ span.replyer {
 #instant-invite-modal .expire-text {
     color: rgba(61, 169, 169, .7);
 }
+#user-profile-modal .guilds .guild:hover {
+    background: transparent !important;
+}
