@@ -3304,3 +3304,28 @@ span.replyer {
     border-right: 2px solid rgba(169, 61, 61, .4);
     border-bottom: 2px solid rgba(169, 61, 61, .4);
 }
+.instant-invite-modal {
+    background: rgba(0, 0, 0, .6);
+    border: 2px solid rgba(169, 61, 61, .5);
+}
+#instant-invite-modal .form-header {
+    border-bottom: 2px solid rgba(169, 61, 61, .5);
+}
+#instant-invite-modal .form-header header {
+    padding-top: 15px;
+    padding-bottom: 3px;
+    color: rgba(169, 61, 61, 1);
+}
+#instant-invite-modal .blurb {
+    padding-bottom: 15px;
+    color: rgba(169, 61, 61, .7);
+}
+#instant-invite-modal .copy:selected {
+    background: #A93D3D;
+}
+#instant-invite-modal .expire-text {
+    color: rgba(169, 61, 61, .7);
+}
+#user-profile-modal .guilds .guild:hover {
+    background: transparent !important;
+}
