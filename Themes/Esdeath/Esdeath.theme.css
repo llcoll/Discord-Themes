@@ -3322,3 +3322,23 @@ span.replyer {
 #user-profile-modal .guilds .guild:hover {
     background: transparent !important;
 }
+.flex-nowrap {
+    background: rgba(0, 0, 0, .8)
+}
+.ui-flex.flex-horizontal-reverse>.ui-flex-child:last-child, .ui-flex.flex-horizontal-reverse>.ui-flex:last-child, .ui-flex.flex-horizontal>.ui-flex-child:last-child, .ui-flex.flex-horizontal>.ui-flex:last-child {
+    background: transparent !important
+}
+.theme-dark .ui-button.primary.outlined {
+    color: #fff;
+    border: 2px solid #3DA9A9;
+}
+.theme-dark .ui-button.primary.outlined:hover {
+    color: #3DA9A9;
+    border: 2px solid #3DA9A9;
+}
+.flex-horizontal .flex-justify-center .flex-align-center .flex-nowrap {
+    background: transparent !important;
+}
+.ui-guild-nsfw .action-button.dark-red {
+    background-color: #A93D3D;
+}
