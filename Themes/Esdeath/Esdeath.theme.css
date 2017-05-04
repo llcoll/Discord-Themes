@@ -3342,3 +3342,63 @@ span.replyer {
 .ui-guild-nsfw .action-button.dark-red {
     background-color: #A93D3D;
 }
+.guild-settings-modal-emoji .emoji-row .emoji-name {
+    background: transparent !important;
+    border: 2px solid #3DA9A9;
+    color: #fff;
+}
+.guild-settings-modal-emoji .emoji-row .emoji-name:hover {
+    color: #3DA9A9;
+    border: 2px solid #3DA9A9;
+}
+.guild-settings-modal-emoji .emoji-row {
+    border-bottom: 1px solid #3DA9A9;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header {
+    border-bottom: 1px solid #3DA9A9;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header p {
+    color: #3DA9A9;
+}
+.guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
+    color: #3DA9A9;
+}
+.emoji-row .emoji-uploader {
+    color: #3DA9A9;
+}
+.guild-settings-modal .emoji-row .btn.btn-danger, .guild-settings-modal .member-buttons .btn.btn-danger {
+    background: transparent !important;
+    border: 2px solid #A93D3D;
+    color: #fff !important;
+}
+.webhooks .webhook {
+    background: transparent;
+    border: 2px solid #3DA9A9;
+}
+.webhooks .webhook .webhook-header .webhook-details .webhook-name {
+    color: #3DA9A9;
+}
+.webhooks .webhook .webhook-header .webhook-details .webhook-created-on {
+    color: rgba(61, 169, 169, .7);
+}
+.form .btn-clear { 
+    background: transparent;
+    border: 2px solid #3DA9A9;
+    color: #fff;
+}
+.form .btn-clear:hover {
+    color: #3DA9A9 !important;
+}
+.avatar-uploader .size-info strong {
+    color: #3DA9A9;
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background: rgba(0, 0, 0, .6) !important;
+    border: 1px solid #3DA9A9;
+}
+.search-bar.search-bar-light input {
+    color: #3DA9A9;
+}
+.webhooks .webhooks-header {
+    border-bottom: 2px solid #3DA9A9;
+}
