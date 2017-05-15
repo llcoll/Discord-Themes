@@ -2768,7 +2768,7 @@ span.replyer {
     background-image: url(https://discordapp.com/assets/0f1f2dff98b5e2099086e303d9be0dad.svg);
 }
 .theme-dark .chat .title-wrap .topic .highlight:hover {
-    background-color: rgb(61, 169, 169);
+    background-color: rgb(169, 61, 61);
     border-radius: 4px;
 }
 .theme-dark .chat .title-wrap .topic .highlight {
@@ -3249,7 +3249,7 @@ span.replyer {
     border-color: rgba(169, 61, 61, .2);
 }
 .theme-dark .search-results-wrap .search-header .tab.selected, .theme-dark .search-results-wrap .search-header .tab:hover {
-    border-bottom: 2px solid #3DA9A9;
+    border-bottom: 2px solid #A93D3D;
 }
 .theme-dark .search-results-wrap .search-result .search-result-message.hit, .theme-dark .search-results-wrap .search-result.expanded {
     border: 2px solid rgba(169, 61, 61, .2);
@@ -3340,7 +3340,7 @@ span.replyer {
     border: 2px solid #A93D3D;
 }
 .theme-dark .ui-button.primary.outlined:hover {
-    color: #3DA9A9;
+    color: #A93D3D;
     border: 2px solid #A93D3D;
 }
 .flex-horizontal .flex-justify-center .flex-align-center .flex-nowrap {
@@ -3637,4 +3637,24 @@ span.replyer {
 }
 .ui-slider .slider-bar-fill {
     background: #A93D3D;
+}
+.theme-dark .private-channel-recipients-invite .friend {
+    background: rgba(0, 0, 0, .6) !important;
+    border-bottom: 1px solid rgba(169, 61, 61, .4);
+}
+.private-channel-recipients-invite .footer button {
+    background: transparent !important;
+    border: 2px solid #A93D3D;
+}
+.private-channel-recipients-invite .footer button:hover {
+    background: #A93D3D !important;
+}
+.private-channel-recipients-invite .header .search-bar {
+    background: rgba(0, 0, 0, .8) !important;
+    color: #fff;
+    border: 1px solid #A93D3D;
+}
+.search-bar-tag {
+    background: transparent !important;
+    border-bottom: 1px solid #A93D3D;
 }
