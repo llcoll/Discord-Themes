@@ -3631,3 +3631,23 @@ span.replyer {
 .ui-slider .slider-bar-fill {
     background: #3DA9A9;
 }
+.theme-dark .private-channel-recipients-invite .friend {
+    background: rgba(0, 0, 0, .6) !important;
+    border-bottom: 1px solid rgba(61, 169, 169, .4);
+}
+.private-channel-recipients-invite .footer button {
+    background: transparent !important;
+    border: 2px solid #3DA9A9;
+}
+.private-channel-recipients-invite .footer button:hover {
+    background: #3DA9A9 !important;
+}
+.private-channel-recipients-invite .header .search-bar {
+    background: rgba(0, 0, 0, .8) !important;
+    color: #fff;
+    border: 1px solid #3DA9A9;
+}
+.search-bar-tag {
+    background: transparent !important;
+    border-bottom: 1px solid #3DA9A9;
+}
