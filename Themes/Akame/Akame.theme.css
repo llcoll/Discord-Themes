@@ -3658,3 +3658,18 @@ span.replyer {
     background: transparent !important;
     border-bottom: 1px solid #A93D3D;
 }
+.need-help-modal .form-inner .failed, .need-help-modal .form-inner.loading {
+    background: rgba(0, 0, 0, .6);
+}
+.need-help-modal {
+    background: transparent !important;
+}
+.need-help-modal .footer {
+    background: rgba(0, 0, 0, .6);
+}
+.need-help-modal .header {
+    background: rgba(169, 61, 61, .6);
+}
+.bd-pfbtn {
+    background: #A93D3D;
+}
