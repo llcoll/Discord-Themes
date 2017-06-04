@@ -3673,3 +3673,67 @@ span.replyer {
 .bd-pfbtn {
     background: #A93D3D;
 }
+.quickswitcher.dark {
+    background: rgba(0, 0, 0, .6);
+    border: 2px solid rgba(169, 61, 61, .6);
+}
+ .quickswitcher.dark .big-input {
+    background: rgba(0, 0, 0, .6);
+}
+.quickswitcher.dark .result.selected {
+    background: rgba(0, 0, 0, .5);
+    border-bottom: 2px solid rgba(169, 61, 61, .4);
+}
+.quickswitcher.dark .result.selected:after {
+    background-color: transparent !important;
+}
+.quickswitcher.dark .ui-scroller-wrap:before {
+    background-image: linear-gradient(0deg,transparent,#3DA9A9 90%,#2e3136) !important;
+}
+.keybind-shortcut.dark span {
+    color: #3DA9A9;
+    background-color: rgba(0, 0, 0, .6);
+}
+.theme-dark .incoming-call-inner {
+    background: rgba(0, 0, 0, .6);
+}
+.chat>.title-wrap.title-wrap-dark {
+    background: rgba(0, 0, 0, .6);
+}
+.guild-wrapper .guilds-error {
+    background: transparent !important;
+}
+._1TrZ9qqv {
+    background-color: rgba(0, 0, 0, 0);
+    color: #F04747;
+}
+._1TrZ9qqv:hover {
+    border: 2px solid #F04747;
+    background: transparent;
+}
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+    border: 2px solid #A93D3D;
+}
+.private-channel-call .button-exit.voice {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.ui-call-avatar-border.voice.speaking {
+    box-shadow: inset 0 0 0 0px transparent;
+}
+.confirm-message-modal {
+    background: transparent !important;
+}
+.modal-content {
+    background: transparent !important;
+}
+.theme-light .ui-text-input .input.editable:focus:focus, .theme-light .ui-text-input .input.editable:hover:focus, .theme-light .ui-text-input .input:focus {
+    border: 2px solid #A93D3D;
+}
+.buttonBrandFilledDefault-2Rs6u5 {
+    background: rgba(0, 0, 0, .2);
+    border: 2px solid #A93D3D;
+}
+.buttonBrandFilledDefault-2Rs6u5:hover {
+    background: #A93D3D;
+}
