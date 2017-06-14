@@ -3752,3 +3752,7 @@ span.replyer {
 .private-channels .channel:not(.selected) a:hover {
     background-color: transparent !important;
 }
+.contentHoveredText-2HYGIY {
+    background-color: transparent !important;
+    border-left: 2px solid rgba(61, 169, 169, .6);
+}
