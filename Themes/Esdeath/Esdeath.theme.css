@@ -3756,3 +3756,6 @@ span.replyer {
     background-color: transparent !important;
     border-left: 2px solid rgba(61, 169, 169, .6);
 }
+.avatarSpeaking-3teDH6 {
+    box-shadow:0 0 0 2px #3DA9A9,inset 0 0 0 1.5px #2f3136;
+}
