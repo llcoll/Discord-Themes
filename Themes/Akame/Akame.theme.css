@@ -3737,3 +3737,25 @@ span.replyer {
 .buttonBrandFilledDefault-2Rs6u5:hover {
     background: #A93D3D;
 }
+.container-RYiLUQ {
+    background-color: transparent !important;
+}
+.container-iksrDt {
+    background-color: transparent !important;
+}
+.contentSelectedText-3j5CXt {
+    background-color: transparent !important;
+    border-left: 2px solid #3DA9A9;
+}
+.accountDetails-15i-_e .discriminator {
+   	margin-left: -4px !important;
+}
+.button-1aU9q1 {
+    margin-bottom: 17px;
+}
+.private-channels .channel.selected a {
+    background-color: transparent !important;
+}
+.private-channels .channel:not(.selected) a:hover {
+    background-color: transparent !important;
+}
