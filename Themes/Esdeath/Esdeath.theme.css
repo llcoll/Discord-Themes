@@ -3759,3 +3759,30 @@ span.replyer {
 .avatarSpeaking-3teDH6 {
     box-shadow:0 0 0 2px #3DA9A9,inset 0 0 0 1.5px #2f3136;
 }
+.theme-dark .modal-3HOjGZ {
+    background: rgba(0, 0, 0, .5) !important;
+    border: 1px solid rgba(61, 169, 169, .5);
+}
+.theme-dark .message-25xg43 {
+    background: transparent !important;
+}
+.theme-dark .ui-quick-select-popout {
+    background: rgba(0, 0, 0, .5) !important;
+}
+.theme-dark .ui-video {
+    background: rgba(0, 0, 0, .5);
+}
+.switch-3lyafC.checked-7qfgSb {
+    background: #3DA9A9;
+}
+.itemDefaultSelected-1UAWLe {
+    background: #3DA9A9;
+}
+#bd-settings-sidebar .ui-tab-bar-item.selected {
+    background: #3DA9A9;
+}
+.channel-text-area-default [class*="inner-"],
+.channel-text-area-default [class*="autocomplete-"], 
+.channel-text-area-default [class*="selectorSelected-"] { 
+    background-color: rgba(61, 169, 169, .1); 
+}
