@@ -3793,3 +3793,6 @@ span.replyer {
 .channel-text-area-default [class*="selectorSelected-"] { 
     background-color: rgba(169, 61, 61, .1); 
 }
+.theme-dark .footer-1PYmcw {
+    background: transparent !important;
+}
